@@ -4,7 +4,7 @@ Portfólio pessoal desenvolvido com **React.js**, **Tailwind CSS** e **EmailJS**
 
 O projeto tem como objetivo apresentar minha trajetória, habilidades, experiências e projetos por meio de uma interface moderna, intuitiva e responsiva.
 
-![Prévia do projeto](./projects/project3.png)
+![Prévia do projeto](public/projects/project3.png)
 
 
 ## Tecnologias utilizadas
