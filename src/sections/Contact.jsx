@@ -45,7 +45,7 @@ export const Contact = () => {
 
       setSubmitStatus({
         type: "success",
-        message: "Message sent successfully! I'll get back to you soon.",
+        message: "Mensagem enviada com sucesso! Entrarei em contato em breve.",
       });
 
       setFormData({ name: "", email: "", message: "" });
@@ -54,7 +54,7 @@ export const Contact = () => {
       setSubmitStatus({
         type: "error",
         message:
-          err.text || "Failed to send message. Please try again later.",
+          err.text || "Falha ao enviar a mensagem. Tente novamente mais tarde.",
       });
     } finally {
       setIsLoading(false);
@@ -103,7 +103,7 @@ export const Contact = () => {
                   htmlFor="name"
                   className="block text-sm font-medium mb-2"
                 >
-                  Name
+                  Nome
                 </label>
                 <input
                   type="text"
@@ -145,7 +145,7 @@ export const Contact = () => {
                   htmlFor="message"
                   className="block text-sm font-medium mb-2"
                 >
-                  Message
+                  Mensagem 
                 </label>
                 <textarea
                   rows={5}
